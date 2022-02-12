@@ -5,7 +5,7 @@ module.exports = data =>
   <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Whisper Email</title>
+    <title>Search Email</title>
     <style>
       /* -------------------------------------
           GLOBAL RESETS
@@ -353,7 +353,7 @@ module.exports = data =>
                     <tr>
                       <td>
                         <p>Hello ${data.name},</p>
-                        <p>We are happy you signed up for Whisper. To start exploring the app please confirm your email.</p>
+                        <p>We are happy you signed up for Search. To start exploring the app please confirm your email.</p>
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
                             <tr>
@@ -369,8 +369,8 @@ module.exports = data =>
                             </tr>
                           </tbody>
                         </table>
-                        <p>Welcome to Whisper.</p>
-                        <p>Whisper team</p>
+                        <p>Welcome to Search.</p>
+                        <p>Search team</p>
                       </td>
                     </tr>
                   </table>
@@ -386,7 +386,7 @@ module.exports = data =>
               <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-block">
-                    <span class="apple-link">Whisper is a fun project that lets you share feelings and do simple survays.</span>
+                    <span class="apple-link">Search is a fun project that lets you share feelings and do simple survays.</span>
                   </td>
                 </tr>
                 <tr>

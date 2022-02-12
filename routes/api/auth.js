@@ -5,9 +5,9 @@ const {
     forgotPassword
 } = require('../../controllers/auth')
 
-router.post('/login', [], loginAndGetToken)
+router.post('/signin', [], loginAndGetToken)
 
-router.post('/validate-user', [], validateRegistration)
+router.post('/registration', [], validateRegistration)
 
 router.post('/forgotpassword', [], forgotPassword)
 

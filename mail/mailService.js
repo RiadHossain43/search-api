@@ -4,7 +4,7 @@ function generateMail(type, payload) {
     switch (type) {
         case 'varify-yourself': {
             return {
-                subject: 'Please verify yourself to start your whisper',
+                subject: 'Please verify yourself to start your search',
                 template: require('./templates/acountVarification')(payload)
             }
         }
